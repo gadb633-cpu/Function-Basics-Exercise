@@ -87,4 +87,10 @@ show_all("radio","map","flashlight")
 def show_profile(**kwargs):
     for _ in kwargs:
         print(_,kwargs[_])
-show_profile(name="agent x",level = 7, active= True)        
+show_profile(name="agent x",level = 7, active= True) 
+# 3
+def power(base,exponent=2):
+    print(base**exponent)
+power(3)           
+power(3,3)           
+power(exponent=4,base=2)           
