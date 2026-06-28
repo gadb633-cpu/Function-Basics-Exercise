@@ -83,3 +83,8 @@ def show_all(*args):
     for _ in args:
         print(_)
 show_all("radio","map","flashlight")
+# 2
+def show_profile(**kwargs):
+    for _ in kwargs:
+        print(_)
+show_profile(name="agent x",level = 7, active= True)        
