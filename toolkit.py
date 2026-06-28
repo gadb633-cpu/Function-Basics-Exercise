@@ -23,7 +23,19 @@ def describe(name,level,active):
 describe(level=10,active=False,name="yossi")
 # 6
 def multiply(a,b=2):
-    print(a*b)
+    print(f"the result is: {a*b}")
 multiply(5)
 multiply(8,56)    
+# 7
+def print_largest(a,b,c):
+    if a >= b and a >= c:
+        print(f"the largest is: {a}")
+    elif b >= a and b >= c:
+        print(f"the largest is: {b}")
+    elif c >= a and c >= b:
+        print(f"the largest is: {c}")
+print_largest(3,8,5)
+print_largest(10,2,7)
+print_largest(4,4,1)
+
 
