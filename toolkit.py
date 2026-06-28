@@ -98,3 +98,10 @@ power(exponent=4,base=2)
 def repeat(text, times):
     print(text * times)
 repeat("ha",3)    
+# 5
+def flatten_and_print(nested):
+    for _ in nested:
+        for x in _:
+            print(x)
+flatten_and_print([[1,2],[3,4],[5]])
+
