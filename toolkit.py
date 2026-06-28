@@ -52,3 +52,28 @@ def check_even(n):
         print(f"{n} is odd")
 check_even(4)
 check_even(7)
+# 10
+def summarize(items):
+    
+    sum = 0
+    max = 0
+    min = 0   
+    round = 0 
+    for _ in items:
+        sum += _
+        if max < _:
+            max = _
+            
+        if min > _:
+            min = _
+        
+        if round == 0:
+                min =items[0]
+                   
+        round += 1
+    print(f"sum:{sum}")
+    print(f"smallest:{min}")
+    print(f"largest:{max}")
+
+
+summarize([4,9,2,10,3])            
