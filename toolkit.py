@@ -18,5 +18,8 @@ def greet_with_title(name,title="agent"):
 greet_with_title(name="gad")
 greet_with_title(name="yossi",title="groom")
 # 5
+def describe(name,level,active):
+    print(f"name is:{name} level is:{level} active is:{active}")
+describe(level=10,active=False,name="yossi")
 
 
