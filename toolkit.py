@@ -77,3 +77,9 @@ def summarize(items):
 
 
 summarize([4,9,2,10,3])            
+# part_2 
+# 1
+def show_all(*args):
+    for _ in args:
+        print(_)
+show_all("radio","map","flashlight")
