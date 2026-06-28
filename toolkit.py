@@ -21,5 +21,9 @@ greet_with_title(name="yossi",title="groom")
 def describe(name,level,active):
     print(f"name is:{name} level is:{level} active is:{active}")
 describe(level=10,active=False,name="yossi")
-
+# 6
+def multiply(a,b=2):
+    print(a*b)
+multiply(5)
+multiply(8,56)    
 
